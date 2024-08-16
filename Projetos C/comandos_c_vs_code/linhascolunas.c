@@ -19,7 +19,7 @@ int main(void){
 	
 	printf("\n\n------ Saida de dados ------\n\n");
 	
-	for (i = 0; i < LINHAS; i++){
+	for (i = 0; i <LINHAS; i++){
 		for (j = 0; j < COLUNAS; j++){
 			printf("\nElemento [%d][%d] = %d\n", i, j, matriz[ i ][ j ]);
 		}
