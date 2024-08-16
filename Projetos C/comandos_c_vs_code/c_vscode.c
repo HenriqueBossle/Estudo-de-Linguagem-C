@@ -3,22 +3,22 @@
 
 int main(){
 	
-	int n = 10; //atribuição de valor
-	float n2 = 6.79; 
+	int numero = 10; //atribuição de valor
+	float numero2 = 6.79; 
 	char letra = 'a';
 	char frase[10] = "Ola mundo!";
-	double n3 = 1.23456; //variavel como precisão dupla
+	double numero3 = 1.23456; //variavel como precisão dupla
 	
 	int valor1, valor2, soma;
 	
 	printf("Hello World!\n");
 	
-	printf("Exibindo o numero inteiro: %d\n", n);
-	printf("Exibindo o numero com ponto flutuante: %f\n", n2);
+	printf("Exibindo o numero inteiro: %d\n", numero);
+	printf("Exibindo o numero com ponto flutuante: %f\n", numero2);
 	printf("Exibindo uma letra: %c\n", letra);
 	printf("%s\n", frase);
-	printf("Exibindo variavel do tipo double %f\n", n3);
-	printf("Valores: %d %f %c %s %f \n",n,n2,letra,frase,n3);
+	printf("Exibindo variavel do tipo double %f\n", numero3);
+	printf("Valores: %d %f %c %s %f \n",numero, numero2, letra, frase, numero3);
 	
 	printf("Digite um numero inteiro: ");
 	scanf("%d", &valor1); 
